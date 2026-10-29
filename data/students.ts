@@ -1,6 +1,6 @@
-//* This file defines the shared Student interface and the starting student data.
- //* Each student has a unique numeric id, first and last name, grade, and average.
- //* The data includes students in every grade from 9 to 12 and at least two honour-roll averages.
+// This file defines the shared Student interface and the starting student data.
+ // Each student has a unique numeric id, first and last name, grade, and average.
+ // The data includes students in every grade from 9 to 12 and at least two honour-roll averages.
 
 
 // information for each student.

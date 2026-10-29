@@ -1,9 +1,6 @@
-//* This component receives the students currently matching the search text.
- //* It uses map to create one StudentCard for each student and gives each card a unique key.
- //* The onRemove callback is passed to each card so the parent can update the main list.
- 
- 
-
+// This component receives the students currently matching the search text.
+// It uses map to create one StudentCard for each student and gives each card a unique key.
+// The onRemove callback is passed to each card so the parent can update the main list.
 import type { Student } from "@/data/students";
 import StudentCard from "@/components/StudentCard";
 
@@ -33,7 +30,7 @@ const StudentList = ({ students, onRemove }: StudentListProps) => {
         <StudentCard
           key={student.id}
           student={student}
-          onRemove={onRemove}
+          onRemove={() => onRemove(student.id)}
         />
       ))}
     </div>
