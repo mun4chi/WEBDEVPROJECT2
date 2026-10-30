@@ -1,6 +1,8 @@
-//* This component receives the students currently matching the search text.
- //* It uses map to create one StudentCard for each student and gives each card a unique key.
- //* The onRemove callback is passed to each card so the parent can update the main list.
+ // StudentList.tsx was created by Munachi Amadike on 2026-10-28
+ // This component receives the students currently matching the search text.
+ // It uses map to create one StudentCard for each student and gives each card a unique key.
+ // The onRemove callback is passed to each card so the parent can update the main list.
+ // If the array is empty, it displays a helpful message instead of an empty grid.
  
  
 
