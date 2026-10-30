@@ -4,6 +4,7 @@
     This component takes the data from StudentList and displays it. 
     It owns the state for all items in the student list, as well as the search text.
     Displays all 3 sections of student data (Stats, Students, Add Student).
+    This component is the only one that should be handling the state for the student lists and data.
 */
 import { useState } from "react";
 import { students as startingStudents } from "@/data/students"

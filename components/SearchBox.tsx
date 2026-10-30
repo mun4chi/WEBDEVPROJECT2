@@ -4,6 +4,8 @@
     SearchBox component written by Noah, 28/10/2026.
     Very simple search box component that lifts the state up to the student portal. 
     Student names are filtered as you type, and case / char location in the string does not matter.
+    Should not own any data from the actual student lists.
+    Styling choices were made to stay in line with the rest of the site.
 */
 interface SearchBoxProps {
   query: string;

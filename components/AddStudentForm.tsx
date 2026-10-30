@@ -4,7 +4,9 @@ import { useState } from "react";
 /* 
     AddStudentForm component written by Noah Stelmack 10/28/2026. 
     This component is responsible for displaying an input form to the user and taking values to create a student object out of them.
-    As per the assignment document, input validation is not implemented using zod, or any other method, and therefor is limited.
+    As per the assignment document, input validation is not implemented using zod, or any other method, and therefor is limited. 
+    This component does not create student data itself. 
+    It passes the data via callback to the StudentPortal component.
 */
 
 interface AddStudentFormProps {
