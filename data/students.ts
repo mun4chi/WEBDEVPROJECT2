@@ -14,12 +14,12 @@ export interface Student {
 
 // starting data for the student portal.
 export const students: Student[] = [
-  { id: 1, firstName: "Munachi", lastName: "Amadike", grade: 12, average: 92 },
-  { id: 2, firstName: "Noah", lastName: "Stelmack", grade: 11, average: 84 },
-  { id: 3, firstName: "Sebastian", lastName: "Brown", grade: 10, average: 76 },
+  { id: 1, firstName: "Munachi", lastName: "Amadike", grade: 10, average: 24 },
+  { id: 2, firstName: "Noah", lastName: "Stelmack", grade: 11, average: -4 },
+  { id: 3, firstName: "Sebastian", lastName: "Brown", grade: 12, average: 100 },
   { id: 4, firstName: "Liam", lastName: "Patel", grade: 9, average: 79 },
   { id: 5, firstName: "Mia", lastName: "Wilson", grade: 12, average: 88 },
-  { id: 6, firstName: "Ethan", lastName: "Brown", grade: 11, average: 71 },
+  { id: 6, firstName: "Ethan", lastName: "Brown", grade: 11, average: 96 },
   { id: 7, firstName: "Sophia", lastName: "Garcia", grade: 10, average: 95 },
   { id: 8, firstName: "Lucas", lastName: "Thompson", grade: 9, average: 67 },
 ];

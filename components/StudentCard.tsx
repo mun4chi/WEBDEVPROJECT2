@@ -1,10 +1,8 @@
-//* This component displays one student's full name and grade.
- //* It receives a Student object and a removal callback through typed props.
- //* Local state controls only this card's Show details and Hide details behavior.
- 
-
-
 "use client";
+// This component displays one student's full name and grade.
+ // It receives a Student object and a removal callback through typed props.
+ // Local state controls only this card's Show details and Hide details behavior.
+
 
 import { useState } from "react";
 import type { Student } from "@/data/students";
@@ -23,7 +21,6 @@ const StudentCard = ({ student, onRemove }: StudentCardProps) => {
 
   return (
     <article className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-      {/* Student summary */}
       <h3 className="text-lg font-semibold text-slate-900">
         {student.firstName} {student.lastName}
       </h3>
@@ -48,14 +45,14 @@ const StudentCard = ({ student, onRemove }: StudentCardProps) => {
         <button
           type="button"
           onClick={() => setShowDetails(!showDetails)}
-          className="rounded-lg bg-blue-700 px-3 py-2 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          className="rounded-lg bg-blue-700 px-3 py-2 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition cursor-pointer"
         >
           {showDetails ? "Hide details" : "Show details"}
         </button>
         <button
           type="button"
           onClick={() => onRemove(student.id)}
-          className="rounded-lg border border-red-300 px-3 py-2 text-sm font-medium text-red-700 hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
+          className="rounded-lg border border-red-300 px-3 py-2 text-sm font-medium text-red-700 hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition cursor-pointer"
         >
           Remove
         </button>
