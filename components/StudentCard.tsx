@@ -1,7 +1,9 @@
 "use client";
-// This component displays one student's full name and grade.
- // It receives a Student object and a removal callback through typed props.
- // Local state controls only this card's Show details and Hide details behavior.
+//  StudentCard.tsx was created by Munachi Amadike on 2026-10-28 
+//  This component displays one student's full name and grade.
+//  It receives a Student object and a removal callback through props.
+//  Local state controls the card's Show details and Hide details behavior.
+//  When details is clicked, the average and Honour Roll badge for averages of 80 or more appear.
 
 
 import { useState } from "react";
